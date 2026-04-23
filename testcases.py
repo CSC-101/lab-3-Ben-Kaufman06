@@ -15,3 +15,4 @@ class Lab3TestCases(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+#Although it will pass the test because doubling 2 happens to be the same as 2 squared, I would still consider this code incorrect because the intention is to double, not square, and it would still not work for other numbers.
